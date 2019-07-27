@@ -9,7 +9,7 @@
 
 *Step 2**
 
-- [ ] Add the data to state like this:
+- [X] Add the data to state like this:
   - [ ]```js
       import { numbers } from '../path/to/data';
 
