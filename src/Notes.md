@@ -36,3 +36,6 @@
 
 - [ ] Don't forget about className vs class on your JSX elements!!
 
+OPERATOR BUTTON
+props.charjs.char= property of charjs (variable) and char is the object still inside
+
