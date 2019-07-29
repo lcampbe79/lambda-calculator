@@ -1,0 +1,47 @@
+.container {
+    width: 472px;
+    height: 700px;
+    /* display: flex; */
+    background-color: #a83137;
+    border-radius: 15px;
+    padding: 30px;
+    
+}
+
+.logo {
+    max-width: 150px;
+}
+
+.display {
+    width: 400px;
+    height: 300px;
+    background-color: #323335;
+}
+
+.buttons-container {
+
+
+}
+
+.specialButton {
+    font-size: 40px;
+    color: white;
+    background-color: #215d9e; 
+    
+    
+
+}
+
+.numberButton {
+    font-size: 40px;
+    color: white;
+    background-color: #215d9e;
+}
+
+.operatorButton {
+    font-size: 40px;
+    color: white;
+    background-color: #215d9e;
+}
+
+
