@@ -2,7 +2,7 @@ import React from "react";
 
 const Display = ({displayValue}) => {
   return (
-    <div>
+    <div className="display">
       <span>
         {displayValue}
       </span>

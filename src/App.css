@@ -1,3 +1,9 @@
+/* :root {
+    --specials-button: #215D9E;
+    --numbers-button: #18427A;
+    --operator-button: #247193;
+} */
+
 .container {
     width: 472px;
     height: 700px;
@@ -13,35 +19,30 @@
 }
 
 .display {
-    width: 400px;
-    height: 300px;
     background-color: #323335;
 }
 
-.buttons-container {
+/* .buttons-container {
+    display: flex;
 
+} */
 
-}
-
-.specialButton {
+/* .specialButton {
     font-size: 40px;
     color: white;
-    background-color: #215d9e; 
-    
-    
+    background-color: #215D9E; 
+} */
 
-}
-
-.numberButton {
+/* .numberButton {
     font-size: 40px;
     color: white;
-    background-color: #215d9e;
-}
-
+    background-color: #18427A;
+} */
+/* 
 .operatorButton {
     font-size: 40px;
     color: white;
-    background-color: #215d9e;
-}
+    background-color: #247193;
+} */
 
 
