@@ -4,9 +4,9 @@
     --operator-button: #247193;
 } */
 
-.container {
-    width: 472px;
-    height: 700px;
+.App {
+    width: 530px;
+    height: 830px;
     /* display: flex; */
     background-color: #a83137;
     border-radius: 15px;
@@ -16,33 +16,30 @@
 
 .logo {
     max-width: 150px;
+    padding: 15px;
 }
 
 .display {
+    height: 128px;
+    width: 517px;
     background-color: #323335;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
 }
 
-/* .buttons-container {
+.buttons-container {
     display: flex;
+    justify-content: space-between;
+}
 
-} */
-
-/* .specialButton {
-    font-size: 40px;
-    color: white;
-    background-color: #215D9E; 
-} */
-
-/* .numberButton {
-    font-size: 40px;
-    color: white;
-    background-color: #18427A;
-} */
-/* 
-.operatorButton {
-    font-size: 40px;
-    color: white;
-    background-color: #247193;
-} */
+.buttons-container button {
+    border-radius: 50px;
+    width: 108px;
+    height: 102px;
+}
 
 
