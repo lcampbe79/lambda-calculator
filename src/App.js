@@ -26,6 +26,8 @@ function App() {
       return setDisplayValue(displayValue + param);
     }
   }
+
+  const resetValue = () => setDisplayValue('0');
     
 
   return (
@@ -33,10 +35,10 @@ function App() {
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
         <Logo />
-        <Display updateValue={updateValue}/> {/*displayValue is the prop being sent into display.js */}
+        <Display updateValue={updateValue}/> {/*updateValue={updateValue}displayValue is the prop being sent into display.js */}
         <div className="buttons-container">
-            <Specials updateValue={updateValue}/>
-            <Numbers updateValue={updateValue}/>
+            <Specials updateValue={updateValue}/> 
+            <Numbers updateValue={updateValue}/> 
           <div>
             <Operators updateValue={setDisplayValue}/>
           </div>
