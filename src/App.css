@@ -1,0 +1,81 @@
+/* :root {
+    --specials-button: #215D9E;
+    --numbers-button: #18427A;
+    --operator-button: #247193;
+} */
+
+.App {
+    width: 530px;
+    height: 830px;
+    /* display: flex; */
+    background-color: #a83137;
+    border-radius: 15px;
+    padding: 30px;
+    
+}
+
+.logo {
+    max-width: 150px;
+    padding: 15px;
+}
+
+.display {
+    height: 128px;
+    width: 500px;
+    background-color: #323335;
+    border-radius: 90px;
+    margin-left: 14px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .buttons-container[data-type="special"] {
+    display: flex;
+
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* .buttons-container[data-type="number"] {
+    display: flex;
+
+} */
+
+.buttons-container[data-type="operator"] {
+    display: flex;
+    flex-direction: row;
+}
+
+/* .buttons-container button {
+    border-radius: 50px;
+    width: 108px;
+    height: 102px;
+    font-size: 2em;
+    color: white;
+} */
+
+.buttons-container button[data-type="special"] {
+    background-color: #215D9E;
+    color: white;
+    border: black;
+}
+
+.buttons-container button[data-type="number"] {
+    background-color: #18427A;
+    color: white;
+    border: black;
+}
+
+.buttons-container button[data-type="operator"] {
+    background-color: #247193;
+    color: white;
+    border: black;
+}
